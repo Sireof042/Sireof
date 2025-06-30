@@ -1,0 +1,4 @@
+C:/Users/Sireof/Documents/GitHub/Sireof/build/CMakeFiles/gamelib.dir
+C:/Users/Sireof/Documents/GitHub/Sireof/build/CMakeFiles/TicTacToe.dir
+C:/Users/Sireof/Documents/GitHub/Sireof/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sireof/Documents/GitHub/Sireof/build/CMakeFiles/ZERO_CHECK.dir

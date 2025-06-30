@@ -1,0 +1,10 @@
+^C:\USERS\SIREOF\DOCUMENTS\GITHUB\SIREOF\BUILD\CMAKEFILES\01E6C3DA43E6209C9460E8572766AEC0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sireof/Documents/GitHub/Sireof -BC:/Users/Sireof/Documents/GitHub/Sireof/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Sireof/Documents/GitHub/Sireof/build/TicTacToe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

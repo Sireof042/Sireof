@@ -1,0 +1,10 @@
+^C:\USERS\SIREOF\DOCUMENTS\GITHUB\SIREOF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sireof/Documents/GitHub/Sireof -BC:/Users/Sireof/Documents/GitHub/Sireof/build --check-stamp-file C:/Users/Sireof/Documents/GitHub/Sireof/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
